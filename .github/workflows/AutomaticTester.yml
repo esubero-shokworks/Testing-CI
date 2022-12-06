@@ -11,11 +11,6 @@ jobs:
       matrix:
         projectPath:
           - ./
-        unityVersion:
-          - 2019.4.11f1
-        targetPlatform:
-          - iOS
-          - Android
         testMode:
           - playmode
           - editmode
